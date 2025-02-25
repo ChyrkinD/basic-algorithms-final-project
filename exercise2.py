@@ -19,6 +19,7 @@ def pythagoras_tree(recursion_level):
     branch_reduction = 5
     angle = 45
     draw_fractal(TTL, recursion_level, branch_length, branch_reduction, angle)
+    screen.exitonclick()
 
 
 def draw_fractal(TTL : turtle.Turtle, recursion_level, branch_length, branch_reduction, angle):
